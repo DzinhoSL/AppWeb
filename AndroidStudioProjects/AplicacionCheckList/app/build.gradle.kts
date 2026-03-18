@@ -48,6 +48,14 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+
+    //para conectar con el php
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    //convertidor de json para que entender lo que envia el php
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    //para que no se bloqueen los datos
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
