@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingHorizontal="0dp">
+
+    <!-- Botón de la máquina (color según estado) -->
+    <Button
+        android:id="@+id/botonMaquinaRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_boton_principal"
+        android:text="NOMBRE MÁQUINA"
+        android:textColor="@color/texto_blanco"
+        android:textSize="@dimen/tamano_texto_boton"
+        android:textStyle="bold"
+        android:background="@drawable/fondo_boton_unificado"
+        android:backgroundTint="@color/boton_azul"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Label comentario (visible solo si hay fallos) -->
+    <TextView
+        android:id="@+id/labelComentarioMaquina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comentario Máquina*"
+        android:textColor="@color/texto_blanco"
+        android:textSize="13sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:visibility="gone" />
+
+    <!-- Campo de comentario (visible solo si hay fallos) -->
+    <EditText
+        android:id="@+id/campoComentarioMaquina"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="No hay comentarios"
+        android:textColorHint="#80FFFFFF"
+        android:textColor="@color/texto_blanco"
+        android:background="@drawable/fondo_campo_texto"
+        android:padding="12dp"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+</LinearLayout>

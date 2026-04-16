@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Check-List Panel Sandwich</string>
+    <string name="titulo_panel_sandwich">PANEL\nSANDWICH</string>
+    <string name="btn_atras">← ATRÁS</string>
+    <string name="btn_menu">MENU</string>
+    <string name="btn_enviar">ENVIAR</string>
+    <string name="btn_si">SI</string>
+    <string name="btn_no">NO</string>
+    <string name="btn_nuevo_check">NUEVO CHECK</string>
+    <string name="btn_mis_checks">MIS CHECKS</string>
+    <string name="titulo_registro">REGISTRO</string>
+    <string name="titulo_maquinaria">MAQUINARIA</string>
+    <string name="hint_comentario">Ej: El carril presenta desgaste, hay un ruido metálico al pasar...</string>
+    <string name="label_firme_aqui">Firme aquí:</string>
+    <string name="label_descripcion_problema">Descripcion Problema*</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo_principal"
+    android:padding="16dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoUsuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="113dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/transparent"
+        android:padding="8dp"
+        android:src="@drawable/logo_psg" />
+
+    <!-- Título del almacén -->
+    <TextView
+        android:id="@+id/tituloAlmacenUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="ALMACÉN X"
+        android:textColor="@color/texto_blanco"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBarUsuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <!-- Texto de error -->
+    <TextView
+        android:id="@+id/textoErrorUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/texto_blanco"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- Grid de usuarios -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Botón Atrás -->
+    <Button
+        android:id="@+id/botonAtrasUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_boton_principal"
+        android:text="← ATRÁS"
+        android:textColor="@color/texto_blanco"
+        android:textSize="@dimen/tamano_texto_boton"
+        android:textStyle="bold"
+        android:background="@drawable/fondo_boton_unificado"
+        android:backgroundTint="@color/boton_rojo"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>

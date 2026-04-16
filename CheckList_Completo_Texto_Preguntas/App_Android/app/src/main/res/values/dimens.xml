@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen_boton">16dp</dimen>
+    <dimen name="radio_esquinas">16dp</dimen>
+    <dimen name="radio_esquinas_botones_checklist">8dp</dimen>
+    <dimen name="padding_boton">24dp</dimen>
+    <dimen name="altura_boton_principal">120dp</dimen>
+    <dimen name="altura_boton_grid">200dp</dimen>
+    <dimen name="tamano_texto_titulo">28sp</dimen>
+    <dimen name="tamano_texto_boton">28sp</dimen>
+    <dimen name="tamano_texto_boton_grid">20sp</dimen>
+    <dimen name="tamano_texto_normal">18sp</dimen>
+    <dimen name="tamano_texto_pregunta">18sp</dimen>
+</resources>

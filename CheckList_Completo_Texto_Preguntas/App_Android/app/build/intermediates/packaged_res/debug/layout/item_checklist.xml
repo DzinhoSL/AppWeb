@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="4dp">
+
+    <!-- Descripción del ítem -->
+    <TextView
+        android:id="@+id/descripcionItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Descripción del ítem"
+        android:textColor="@color/texto_blanco"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Fila de botones SI / NO -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/botonSi"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_boton_principal"
+            android:layout_weight="1"
+            android:text="SI"
+            android:textColor="@color/texto_blanco"
+            android:textSize="@dimen/tamano_texto_boton"
+            android:textStyle="bold"
+            android:background="@drawable/fondo_boton_checklist_unificado"
+            android:backgroundTint="@color/boton_verde"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/botonNo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_boton_principal"
+            android:layout_weight="1"
+            android:text="NO"
+            android:textColor="@color/texto_blanco"
+            android:textSize="@dimen/tamano_texto_boton"
+            android:textStyle="bold"
+            android:background="@drawable/fondo_boton_checklist_unificado"
+            android:backgroundTint="@color/boton_rojo" />
+
+    </LinearLayout>
+
+    <!-- Separador -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#30FFFFFF"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

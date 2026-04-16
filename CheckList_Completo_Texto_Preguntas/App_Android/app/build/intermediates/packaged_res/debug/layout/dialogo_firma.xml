@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo_principal"
+    android:padding="16dp">
+
+    <!-- Título del diálogo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firme aquí"
+        android:textColor="@color/texto_blanco"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Vista de firma táctil -->
+    <com.panelsandwich.checklist.vistas.VistaFirma
+        android:id="@+id/vistaFirmaDialogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/fondo_campo_texto"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botones de acción -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Botón Cancelar -->
+        <Button
+            android:id="@+id/botonCancelarFirma"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="CANCELAR"
+            android:textColor="@color/texto_blanco"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/fondo_boton_unificado"
+            android:backgroundTint="@color/boton_rojo"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Botón Confirmar Firma -->
+        <Button
+            android:id="@+id/botonConfirmarFirma"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="CONFIRMAR"
+            android:textColor="@color/texto_blanco"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/fondo_boton_unificado"
+            android:backgroundTint="@color/boton_verde"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

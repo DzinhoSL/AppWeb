@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_fondo_boton_azul.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/fondo_boton_azul.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_fondo_boton_checklist_unificado.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/fondo_boton_checklist_unificado.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_item_registro_maquina.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/item_registro_maquina.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_ic_launcher_round.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_logo_psg.png.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/logo_psg.png"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_dialogo_firma.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/dialogo_firma.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_item_checklist.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/item_checklist.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_actividad_usuarios.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/actividad_usuarios.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_fondo_boton_checklist.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/fondo_boton_checklist.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_actividad_check_maquina.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/actividad_check_maquina.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_fondo_boton_unificado.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/fondo_boton_unificado.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_item_boton_grid.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/item_boton_grid.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_fondo_boton_redondeado.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/fondo_boton_redondeado.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_actividad_maquinaria.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/actividad_maquinaria.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_fondo_logo.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/fondo_logo.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_ic_launcher.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_actividad_registro.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/actividad_registro.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/drawable_fondo_campo_texto.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/drawable/fondo_campo_texto.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_actividad_menu_principal.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/actividad_menu_principal.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_actividad_almacenes.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/actividad_almacenes.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/layout_actividad_firma.xml.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/layout/actividad_firma.xml"
+    },
+    {
+        "merged": "com.panelsandwich.checklist.app-merged_res-31:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.panelsandwich.checklist.app-main-33:/mipmap-mdpi/ic_launcher_foreground.webp"
+    }
+]

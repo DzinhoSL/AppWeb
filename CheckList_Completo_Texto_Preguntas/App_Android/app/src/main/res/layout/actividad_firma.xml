@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo_principal"
+    android:padding="16dp">
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBarFirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firme aquí"
+        android:textColor="@color/texto_blanco"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Contenedor de la vista de firma (reducido a la mitad) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp">
+
+        <!-- Vista de firma táctil -->
+        <com.panelsandwich.checklist.vistas.VistaFirma
+            android:id="@+id/vistaFirmaActividad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fondo_campo_texto" />
+
+    </LinearLayout>
+
+    <!-- Botones de acción -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Botón LIMPIAR FIRMA -->
+        <Button
+            android:id="@+id/botonLimpiarFirma"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_boton_principal"
+            android:text="LIMPIAR FIRMA"
+            android:textColor="@color/texto_blanco"
+            android:textSize="@dimen/tamano_texto_boton"
+            android:textStyle="bold"
+            android:background="@drawable/fondo_boton_unificado"
+            android:backgroundTint="@color/boton_rojo"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón ENVIAR -->
+        <Button
+            android:id="@+id/botonEnviarFirma"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_boton_principal"
+            android:text="ENVIAR"
+            android:textColor="@color/texto_blanco"
+            android:textSize="@dimen/tamano_texto_boton"
+            android:textStyle="bold"
+            android:background="@drawable/fondo_boton_unificado"
+            android:backgroundTint="@color/boton_verde"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón ATRÁS -->
+        <Button
+            android:id="@+id/botonAtrasActividad"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_boton_principal"
+            android:text="ATRÁS"
+            android:textColor="@color/texto_blanco"
+            android:textSize="@dimen/tamano_texto_boton"
+            android:textStyle="bold"
+            android:background="@drawable/fondo_boton_unificado"
+            android:backgroundTint="@color/boton_rojo" />
+
+    </LinearLayout>
+
+</LinearLayout>

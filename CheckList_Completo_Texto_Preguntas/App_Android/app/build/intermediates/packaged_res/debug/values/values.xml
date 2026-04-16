@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="borde_blanco">#FFFFFF</color>
+    <color name="boton_azul">#1E3A5F</color>
+    <color name="boton_azul_oscuro">#152B4A</color>
+    <color name="boton_rojo">#C0392B</color>
+    <color name="boton_verde">#27AE60</color>
+    <color name="color_seleccion_primaria">@color/boton_azul</color>
+    <color name="color_seleccion_secundaria">@color/boton_azul_oscuro</color>
+    <color name="fondo_principal">#0D1B2A</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="texto_blanco">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="altura_boton_grid">200dp</dimen>
+    <dimen name="altura_boton_principal">120dp</dimen>
+    <dimen name="margen_boton">16dp</dimen>
+    <dimen name="padding_boton">24dp</dimen>
+    <dimen name="radio_esquinas">16dp</dimen>
+    <dimen name="radio_esquinas_botones_checklist">8dp</dimen>
+    <dimen name="tamano_texto_boton">28sp</dimen>
+    <dimen name="tamano_texto_boton_grid">20sp</dimen>
+    <dimen name="tamano_texto_normal">18sp</dimen>
+    <dimen name="tamano_texto_pregunta">18sp</dimen>
+    <dimen name="tamano_texto_titulo">28sp</dimen>
+    <string name="app_name">Check-List Panel Sandwich</string>
+    <string name="btn_atras">← ATRÁS</string>
+    <string name="btn_enviar">ENVIAR</string>
+    <string name="btn_menu">MENU</string>
+    <string name="btn_mis_checks">MIS CHECKS</string>
+    <string name="btn_no">NO</string>
+    <string name="btn_nuevo_check">NUEVO CHECK</string>
+    <string name="btn_si">SI</string>
+    <string name="hint_comentario">Ej: El carril presenta desgaste, hay un ruido metálico al pasar...</string>
+    <string name="label_descripcion_problema">Descripcion Problema*</string>
+    <string name="label_firme_aqui">Firme aquí:</string>
+    <string name="titulo_maquinaria">MAQUINARIA</string>
+    <string name="titulo_panel_sandwich">PANEL\nSANDWICH</string>
+    <string name="titulo_registro">REGISTRO</string>
+    <style name="Base.Theme.CheckListApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/boton_azul</item>
+        <item name="colorSecondary">@color/boton_azul_oscuro</item>
+        <item name="colorTertiary">@color/boton_azul</item>
+        <item name="android:windowBackground">@color/fondo_principal</item>
+        <item name="android:statusBarColor">@color/fondo_principal</item>
+        <item name="colorOnPrimary">@color/texto_blanco</item>
+        <item name="colorOnSecondary">@color/texto_blanco</item>
+    </style>
+    <style name="Theme.CheckListApp" parent="Base.Theme.CheckListApp"/>
+</resources>

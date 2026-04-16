@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo_principal"
+    android:padding="16dp">
+
+    <!-- Fila superior: título + icono usuario -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tituloAlmacenMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALMACÉN X"
+            android:textColor="@color/texto_blanco"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@android:drawable/ic_menu_myplaces"
+                android:tint="@color/texto_blanco" />
+
+            <TextView
+                android:id="@+id/inicialesUsuarioMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="J.H"
+                android:textColor="@color/texto_blanco"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- Logo eliminado por petición del usuario -->
+
+    <!-- Fecha y hora -->
+    <TextView
+        android:id="@+id/textoFechaHoraMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="19/03/26 - 8:03"
+        android:textColor="@color/texto_blanco"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Botón Nuevo Check -->
+    <Button
+        android:id="@+id/botonNuevoCheck"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_boton_principal"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/fondo_boton_unificado"
+        android:backgroundTint="@color/boton_azul"
+        android:text="NUEVO CHECK"
+        android:textColor="@color/texto_blanco"
+        android:textSize="@dimen/tamano_texto_boton"
+        android:textStyle="bold" />
+
+    <!-- Botón Mis Checks -->
+    <Button
+        android:id="@+id/botonMisChecks"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_boton_principal"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/fondo_boton_unificado"
+        android:backgroundTint="@color/boton_azul_oscuro"
+        android:text="MIS CHECKS"
+        android:textColor="@color/texto_blanco"
+        android:textSize="@dimen/tamano_texto_boton"
+        android:textStyle="bold" />
+
+    <!-- Espaciador -->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Botón Atrás -->
+    <Button
+        android:id="@+id/botonAtrasMenu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_boton_principal"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/fondo_boton_unificado"
+        android:backgroundTint="@color/boton_rojo"
+        android:text="← ATRÁS"
+        android:textColor="@color/texto_blanco"
+        android:textSize="@dimen/tamano_texto_boton"
+        android:textStyle="bold" />
+
+</LinearLayout>

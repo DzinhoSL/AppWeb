@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Colores de la aplicación según boceto -->
+    <color name="fondo_principal">#0D1B2A</color>
+    <color name="boton_azul">#1E3A5F</color>
+    <color name="boton_azul_oscuro">#152B4A</color>
+    <color name="boton_rojo">#C0392B</color>
+    <color name="boton_verde">#27AE60</color>
+    
+    <color name="texto_blanco">#FFFFFF</color>
+    <color name="borde_blanco">#FFFFFF</color>
+    
+    <!-- Colores de selección para reemplazar Material3 -->
+    <color name="color_seleccion_primaria">@color/boton_azul</color>
+    <color name="color_seleccion_secundaria">@color/boton_azul_oscuro</color>
+</resources>

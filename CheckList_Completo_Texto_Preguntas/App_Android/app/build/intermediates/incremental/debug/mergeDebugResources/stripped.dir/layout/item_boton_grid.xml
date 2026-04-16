@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/textoBotonGrid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_boton_grid"
+        android:background="@drawable/fondo_boton_azul"
+        android:backgroundTint="@color/boton_azul"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:textColor="@color/texto_blanco"
+        android:textSize="@dimen/tamano_texto_boton_grid"
+        android:textStyle="bold" />
+
+</FrameLayout>
